@@ -4,6 +4,7 @@ import JobList from "./JobList";
 import JobForm from "./JobForm";
 import FeedbackForm from "./FeedbackForm";
 import { jobs } from "./data";
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/feedback" element={<FeedbackForm />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }

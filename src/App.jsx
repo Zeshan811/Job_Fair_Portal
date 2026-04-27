@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 function Home() {
   return (
-    <div className="center-card">
+    <div className="center-card" style={{ marginBottom: "120px" }}>
       <h2>🎓 University Job Fair Portal</h2>
       <p>
         Welcome! Explore jobs, apply easily, and share your feedback.
